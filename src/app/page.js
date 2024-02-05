@@ -1,9 +1,8 @@
 import Image from "next/image";
+import Home from "./home";
 
-export default function Home() {
+export default function App() {
   return (
-    <main className="home-page flex h-screen flex-col items-center justify-center p-24">
-      Comming Soon
-    </main>
+   <Home />
   );
 }
