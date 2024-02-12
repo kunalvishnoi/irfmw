@@ -1,4 +1,4 @@
-import { whyUsData } from "App/DB/whyUsData";
+import { whyUsData } from "../DB/whyUsData";
 
 export default function WhyUs() {
   return (

@@ -1,4 +1,4 @@
-import { missions } from "App/DB/mission";
+import { missions } from "../DB/mission";
 
 export default function MissionSection() {
   return (

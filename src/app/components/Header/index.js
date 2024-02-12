@@ -1,5 +1,5 @@
 "use client";
-import useResponsive from "App/hooks/useResponsive";
+import useResponsive from "../../hooks/useResponsive";
 import Link from "next/link";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import MenuIcon from "@mui/icons-material/Menu";
