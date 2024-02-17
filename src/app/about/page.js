@@ -120,7 +120,6 @@ export default function About() {
           See Careers
         </button>
       </div>
-      <div className="w-full h-96 bg-[#0D0D0D]" />
     </>
   );
 }

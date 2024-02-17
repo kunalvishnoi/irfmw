@@ -1,4 +1,4 @@
-import Footer from "./footer";
+// import Footer from "./footer";
 import HeroSection from "./hero";
 import MissionSection from "./mission";
 import OurProduct from "./product";
@@ -11,7 +11,7 @@ export default function Home() {
       <MissionSection />
       <WhyUs />
       <OurProduct />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
