@@ -1,3 +1,7 @@
+import Link from "next/link";
+import ProductCard from "../components/ProductCard";
+import { products } from "../DB/products";
+
 export default function OurProduct() {
   return (
     <div className="flex flex-col py-6 lg:py-12 lg:px-24 px-4">
@@ -8,33 +12,20 @@ export default function OurProduct() {
         Also, we provide Hardware and Software solutions to Telecom and Radar
         Communications.
       </p>
-      <button className="bg-[#0F62FE] flex w-48 mt-5 font-semi-bold text-white py-2 px-4">
-        View All Products &gt;
-      </button>
+      <Link href="/products">
+        <button className="bg-[#0F62FE] flex w-48 mt-5 font-semi-bold text-white py-2 px-4">
+          View All Products &gt;
+        </button>
+      </Link>
       <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
-        <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-          <img src="../p1.png" alt="Active Phased Array Antennas" />
-          <h3 className="text-2xl my-2 font-bold">
-            Active Phased Array Antennas
-          </h3>
-          <p className=" lg:w-4/5 text-sm">
-            Description for the Antenna/Product
-          </p>
-        </div>
-        <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-          <img src="../p2.png" alt="Technical Support" />
-          <h3 className="text-2xl my-2 font-bold">Hybrid RF Circuits</h3>
-          <p className="text-center lg:w-4/5 text-sm">
-            Description for the Antenna/Product
-          </p>
-        </div>
-        <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-          <img src="../p3.png" alt="Training" />
-          <h3 className="text-2xl my-2 font-bold">TR Modules</h3>
-          <p className="text-center lg:w-4/5 text-sm">
-            Description for the Antenna/Product
-          </p>
-        </div>
+        {products.slice(0, 3).map((product) => (
+          <ProductCard
+            key={product.id}
+            imgUrl={product.imgUrl}
+            title={product.title}
+            description={product.description}
+          />
+        ))}
       </div>
     </div>
   );

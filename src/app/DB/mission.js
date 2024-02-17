@@ -5,7 +5,7 @@ export const missions = [
     subTitle: "More Indian Less Foreign",
     description:
       "Providing the design, development and productions ELECTRONIC WARFARE Systems. Modernization and Up graduation of strategic systems, electronic warfare systems meeting the Next-Gen Requirements.",
-    link: "",
+    link: "/products",
   },
   {
     title: "Who are We?",
@@ -13,14 +13,12 @@ export const missions = [
     subTitle: "The RFMW Innovations Lab",
     description:
       "Providing the design, development and productions ELECTRONIC WARFARE Systems. Modernization and Up graduation of strategic systems, electronic warfare systems meeting the Next-Gen Requirements.",
-    link: "",
+    link: "/about",
   },
   {
     title: "What we do?",
-    buttonText: "Read More >",
     subTitle: "Check Out Our Work",
     description:
       "We tackle a wide variety of projects including satcom, radar, and telecommunications systems for Defense and commercial customers.",
-    link: "",
   },
 ];

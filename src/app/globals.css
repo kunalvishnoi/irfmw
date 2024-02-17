@@ -24,6 +24,12 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.product-page {
+  background-image: url("../../public/product-main.png");
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
 .header {
   position: fixed;
   top: 0;

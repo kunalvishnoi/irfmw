@@ -1,4 +1,5 @@
 import { missions } from "../DB/mission";
+import Link from "next/link";
 
 export default function MissionSection() {
   return (
@@ -22,9 +23,13 @@ export default function MissionSection() {
                 {data.subTitle}
               </p>
               <p className="lg:w-3/5">{data.description}</p>
-              <button className="bg-[#0F62FE] mt-5 font-semi-bold text-white py-2 px-4">
-                {data.buttonText}
-              </button>
+              {data.buttonText && data.link ? (
+                <Link href={data.link}>
+                  <button className="bg-[#0F62FE] mt-5 font-semi-bold text-white py-2 px-4">
+                    {data.buttonText}
+                  </button>
+                </Link>
+              ) : null}
             </div>
           </div>
         );

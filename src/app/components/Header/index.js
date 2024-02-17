@@ -75,7 +75,7 @@ export default function Header() {
             })}
           </ul>
         )}
-        <Link href="https://wa.me/+918105187578" target="_blank">
+        <Link href="https://wa.me/+919686597728" target="_blank">
           <button className="bg-[#0F62FE] font-semi-bold text-white py-2 px-4">
             Get in Touch <ArrowOutwardIcon fontSize="small" />
           </button>
@@ -84,3 +84,5 @@ export default function Header() {
     </div>
   );
 }
+
+
