@@ -29,7 +29,6 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-
 .header {
   position: fixed;
   top: 0;
@@ -57,3 +56,15 @@ body {
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: #fff !important;
 }
+
+/* tabs css */
+.MuiTabs-root .MuiTab-root {
+  color: #8D8D8D;
+  border-bottom: 2px solid #8D8D8D;
+  margin: 0 2px;
+}
+.MuiTabs-root .Mui-selected {
+  border-color: #0f62fe;
+  color: #fff;
+}
+
