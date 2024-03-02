@@ -29,6 +29,11 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.contact-page {
+  background-image: url("../../public/about-main.png");
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .header {
   position: fixed;
   top: 0;
