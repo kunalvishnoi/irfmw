@@ -8,6 +8,10 @@ import { useState } from "react";
 
 const linkItems = [
   {
+    label: "Home",
+    link: "/",
+  },
+  {
     label: "About",
     link: "/about",
   },

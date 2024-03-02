@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroSection() {
   return (
     <>
@@ -11,9 +13,11 @@ export default function HeroSection() {
           technical challenges in order to better equip them with a{" "}
           <b>DECISIVE </b> advantage during the adversaries situations
         </p>
+        <Link href="/about">
         <button className="bg-white font-semi-bold py-2 px-4 text-black">
-          Learn More{" "}
+          Learn More
         </button>
+        </Link>
       </main>
     </>
   );
