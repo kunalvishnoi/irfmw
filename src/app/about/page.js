@@ -81,14 +81,14 @@ export default function About() {
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
             <img src={`../team1.png`} alt="Hemanth Gaddam" className="h-[300px]" />
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl my-2 font-bold">Hemanth Gaddam Phd </h3>
+              <h3 className="text-2xl my-2 font-bold">Hemanth Gaddam, Phd </h3>
               <a href="https://www.linkedin.com/in/hemanth-gaddam-613631b7/" target="_blank" rel="noreferrer">
               <img src="../linkedin.png" alt="linkedin" />
               </a>
             </div>
 
             <p className=" lg:w-4/5 text-sm">
-            PhD, MD
+             MD
             </p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
@@ -120,7 +120,7 @@ export default function About() {
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
             <img src={`../team4.png`} alt="Neeraj Kumar" className="h-[300px]" />
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl my-2 font-bold">Neeraj Kumar PhD </h3>
+              <h3 className="text-2xl my-2 font-bold">Neeraj Kumar, PhD </h3>
               <a href="https://www.linkedin.com/in/neeraj-kumar-phd/" target="_blank" rel="noreferrer">
               <img src="../linkedin.png" alt="linkedin" />
               </a>
