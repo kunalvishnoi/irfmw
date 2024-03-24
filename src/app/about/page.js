@@ -79,36 +79,111 @@ export default function About() {
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../t1.png`} alt="Active Phased Array Antennas" />
+            <img src={`../team1.png`} alt="Active Phased Array Antennas" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">Hemanth Gaddam </h3>
+              <a href="https://www.linkedin.com/in/hemanth-gaddam-613631b7/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+
+            <p className=" lg:w-4/5 text-sm">
+            PhD, MD
+            </p>
+          </div>
+          <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
+            <img src={`../team2.png`} alt="Technical Support" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Akash Agarwal</h3>
+              <a href="https://www.linkedin.com/in/akash-agrawal-0645a052/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+            <p className="lg:w-4/5 text-sm">
+              CEO
+            </p>
+          </div>
+          <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
+            <img src={`../team3.png`} alt="Training" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">Subin Joesph</h3>
+              <a href="https://www.linkedin.com/in/subin-joseph-317b2280/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+            <p className=" lg:w-4/5 text-sm">
+             CTO (Hardware)
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
+          <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
+            <img src={`../team4.png`} alt="Active Phased Array Antennas" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">Neeraj Kumar </h3>
+              <a href="https://www.linkedin.com/in/neeraj-kumar-phd/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+
+            <p className=" lg:w-4/5 text-sm">
+            CTO (AI & Software)
+            </p>
+          </div>
+          <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
+            <img src={`../team5.png`} alt="Technical Support" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">Srikanth Reddy</h3>
+              <a href="https://www.linkedin.com/in/srikanth-reddy-aileni-2194a78/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+            <p className="lg:w-4/5 text-sm">
+            Director (Marketing)
+            </p>
+          </div>
+          <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
+            <img src={`../team6.png`} alt="Training" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">Purnendu Sarkar</h3>
+              <a href="https://www.linkedin.com/in/purnendu-sarkar-55094329/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+            <p className=" lg:w-4/5 text-sm">
+            VP (R&D)
+            </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
+          <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
+            <img src={`../team7.png`} alt="Active Phased Array Antennas" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">M Gunasekhar</h3>
               <img src="../linkedin.png" alt="linkedin" />
             </div>
 
             <p className=" lg:w-4/5 text-sm">
-              Founder & Chief Executive Officer
+            Director (Finance)
             </p>
           </div>
-          <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../t1.png`} alt="Technical Support" />
+
+          <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
+            <img src={`../team8.png`} alt="Active Phased Array Antennas" />
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl my-2 font-bold">Akash Agarwal</h3>
+              <h3 className="text-2xl my-2 font-bold">Hari Susarla</h3>
+              <a href="https://www.linkedin.com/in/hari-susarla-b589334/" target="_blank" rel="noreferrer">
               <img src="../linkedin.png" alt="linkedin" />
+              </a>
             </div>
-            <p className="lg:w-4/5 text-sm">
-              Founder & Chief Executive Officer
-            </p>
-          </div>
-          <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../t1.png`} alt="Training" />
-            <div className="flex justify-between items-center">
-              <h3 className="text-2xl my-2 font-bold">Akash Agarwal</h3>
-              <img src="../linkedin.png" alt="linkedin" />
-            </div>
+
             <p className=" lg:w-4/5 text-sm">
-              Founder & Chief Executive Officer
+            RF & Microwave Circuit and System Designer
             </p>
           </div>
+          
+          
         </div>
       </div>
       <div className="flex flex-col items-center py-12 lg:py-24 px-4 lg:px-16">
