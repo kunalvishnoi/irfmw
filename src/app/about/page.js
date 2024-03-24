@@ -79,9 +79,9 @@ export default function About() {
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team1.png`} alt="Active Phased Array Antennas" className="h-[300px]" />
+            <img src={`../team1.png`} alt="Hemanth Gaddam" className="h-[300px]" />
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl my-2 font-bold">Hemanth Gaddam </h3>
+              <h3 className="text-2xl my-2 font-bold">Hemanth Gaddam Phd </h3>
               <a href="https://www.linkedin.com/in/hemanth-gaddam-613631b7/" target="_blank" rel="noreferrer">
               <img src="../linkedin.png" alt="linkedin" />
               </a>
@@ -92,7 +92,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team2.png`} alt="Technical Support" className="h-[300px]" />
+            <img src={`../team2.png`} alt="Akash Agarwal" className="h-[300px]" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Akash Agarwal</h3>
               <a href="https://www.linkedin.com/in/akash-agrawal-0645a052/" target="_blank" rel="noreferrer">
@@ -104,7 +104,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team3.png`} alt="Training" className="h-[300px]" />
+            <img src={`../team3.png`} alt="Subin Joesph" className="h-[300px]" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Subin Joesph</h3>
               <a href="https://www.linkedin.com/in/subin-joseph-317b2280/" target="_blank" rel="noreferrer">
@@ -118,9 +118,9 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team4.png`} alt="Active Phased Array Antennas" className="h-[300px]" />
+            <img src={`../team4.png`} alt="Neeraj Kumar" className="h-[300px]" />
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl my-2 font-bold">Neeraj Kumar </h3>
+              <h3 className="text-2xl my-2 font-bold">Neeraj Kumar PhD </h3>
               <a href="https://www.linkedin.com/in/neeraj-kumar-phd/" target="_blank" rel="noreferrer">
               <img src="../linkedin.png" alt="linkedin" />
               </a>
@@ -131,7 +131,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team5.png`} alt="Technical Support" className="h-[300px]" />
+            <img src={`../team5.png`} alt="Srikanth Reddy" className="h-[300px]" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Srikanth Reddy</h3>
               <a href="https://www.linkedin.com/in/srikanth-reddy-aileni-2194a78/" target="_blank" rel="noreferrer">
@@ -143,7 +143,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team6.png`} alt="Training" className="h-[300px]" />
+            <img src={`../team6.png`} alt="Purnendu Sarkar" className="h-[300px]" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Purnendu Sarkar</h3>
               <a href="https://www.linkedin.com/in/purnendu-sarkar-55094329/" target="_blank" rel="noreferrer">
@@ -158,7 +158,7 @@ export default function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team7.png`} alt="Active Phased Array Antennas" className="h-[300px]" />
+            <img src={`../team7.png`} alt="M Gunasekhar" className="h-[300px]" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">M Gunasekhar</h3>
               <img src="../linkedin.png" alt="linkedin" />
@@ -170,7 +170,7 @@ export default function About() {
           </div>
 
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team8.png`} alt="Active Phased Array Antennas" className="h-[300px]" />
+            <img src={`../team8.png`} alt="Hari Susarla" className="h-[300px]" />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Hari Susarla</h3>
               <a href="https://www.linkedin.com/in/hari-susarla-b589334/" target="_blank" rel="noreferrer">
@@ -179,7 +179,21 @@ export default function About() {
             </div>
 
             <p className=" lg:w-4/5 text-sm">
-            RF & Microwave Circuit and System Designer
+            GM, EW systems
+            </p>
+          </div>
+
+          <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
+            <img src={`../team9.png`} alt="Hari Susarla" className="h-[300px]" />
+            <div className="flex justify-between items-center">
+              <h3 className="text-2xl my-2 font-bold">Vijayashree Bhat, PhD</h3>
+              <a href="https://www.linkedin.com/in/hari-susarla-b589334/" target="_blank" rel="noreferrer">
+              <img src="../linkedin.png" alt="linkedin" />
+              </a>
+            </div>
+
+            <p className=" lg:w-4/5 text-sm">
+            {/* GM, EW systems */}
             </p>
           </div>
           
