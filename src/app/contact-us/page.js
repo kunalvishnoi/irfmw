@@ -84,10 +84,29 @@ Bengaluru, Karnataka
               </div>
               </div>
             </div>
+
+            <div
+              
+              className="flex bg-[#0D0D0D] flex-col items-center py-6 lg:py-6 px-6"
+            >
+            <div class="flex items-center">
+              <img src="../enter.png" alt="" className="mr-4" />
+              <div>
+              <h3 className="text-xl my-2 font-bold text-gray-400">HYDERABAD OFFICE</h3>
+              <p className="text-xl">Vinyas F86 Building
+ITI Limited, Dooravani Nagar
+Bengaluru, Karnataka
+560016</p>
+             
+              </div>
+              </div>
+            </div>
            
       </div>
+      <p className="lg:px-24 mt-5 mb-2">BENGALURU OFFICE</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.495535817456!2d77.67866572538188!3d13.004084987314283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae113ef59a9ab1%3A0xf4ea50ee3235d0a0!2sITI%20Limited!5e0!3m2!1sen!2sin!4v1709370995622!5m2!1sen!2sin"   className="border-none w-full lg:px-24 mx-auto mt-5" height="400px"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      
+      <p className="lg:px-24 mt-5 mb-2">HYDERABAD OFFICE</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3810.5689085479526!2d78.47551299999999!3d17.239689999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDE0JzIyLjkiTiA3OMKwMjgnMzEuOSJF!5e0!3m2!1sen!2sin!4v1711264073045!5m2!1sen!2sin" className="border-none w-full lg:px-24 mx-auto mt-5" height="400px"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </>
   
