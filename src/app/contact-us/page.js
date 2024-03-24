@@ -93,10 +93,7 @@ Bengaluru, Karnataka
               <img src="../enter.png" alt="" className="mr-4" />
               <div>
               <h3 className="text-xl my-2 font-bold text-gray-400">HYDERABAD OFFICE</h3>
-              <p className="text-xl">Vinyas F86 Building
-ITI Limited, Dooravani Nagar
-Bengaluru, Karnataka
-560016</p>
+              <p className="text-xl">CFC-1/C, hardware park, near cdac shamshabad, Hyderabad</p>
              
               </div>
               </div>
