@@ -12,7 +12,7 @@ const nextConfig = {
      *
      * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
      */
-    basePath: "/irfmw",
+    // basePath: "/irfmw",
   
     /**
      * Disable server-based image optimization. Next.js does not support
@@ -20,9 +20,9 @@ const nextConfig = {
      *
      * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
      */
-    // images: {
-    //   unoptimized: true,
-    // },
+    images: {
+      unoptimized: true,
+    },
   };
   
   export default nextConfig;
