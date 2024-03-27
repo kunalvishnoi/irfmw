@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Modal, Fade, Backdrop } from "@mui/material";
 
 export default function ProductCard({
@@ -29,7 +28,7 @@ export default function ProductCard({
         className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6"
         onClick={toggleModal}
       >
-        <Image src={imgUrl} alt={title} />
+        <img src={imgUrl} alt={title} />
         <h3 className="text-2xl my-2 font-bold">{title}</h3>
         <p className="lg:w-4/5 text-sm">{description}</p>
         <Modal
