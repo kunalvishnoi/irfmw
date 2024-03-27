@@ -6,6 +6,10 @@ const nextConfig = {
      * @see https://nextjs.org/docs/app/building-your-application/deploying/static-exports
      */
     output: "export",
+
+    env: {
+        imageBasePath: "/irfmw",
+      },
   
     /**
      * Set base path. This is usually the slug of your repository.

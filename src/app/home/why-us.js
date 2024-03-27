@@ -14,7 +14,10 @@ export default function WhyUs() {
               key={index}
               className="flex bg-[#0D0D0D] flex-col items-center py-6 lg:py-12 px-6"
             >
-              <img src={`../w${index + 1}.png`} alt={data.title} />
+              <img
+                src={`${process.env.imageBasePath}/w${index + 1}.png`}
+                alt={data.title}
+              />
               <h3 className="text-2xl my-2 font-bold">{data.title}</h3>
               <p className="text-center lg:w-4/5 text-sm">{data.description}</p>
             </div>

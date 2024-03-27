@@ -65,7 +65,7 @@ export default function Header() {
         </>
       ) : null}
       <Link href="/">
-        <img src="../logo.svg" alt="logo" />
+        <img src={`${process.env.imageBasePath}/logo.svg`} alt="logo" />
       </Link>
       <div className="flex items-center w-full justify-end">
         {isMobileDevice ? null : (
@@ -88,5 +88,3 @@ export default function Header() {
     </div>
   );
 }
-
-

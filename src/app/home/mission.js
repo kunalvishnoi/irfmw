@@ -13,7 +13,7 @@ export default function MissionSection() {
             }  lg:justify-between lg:items-center lg:px-24 py-6`}
           >
             <div className="lg:w-2/5 flex justify-center">
-              <img src="../img.png" alt="mission" />
+              <img src={`${process.env.imageBasePath}/img.png`} alt="mission" />
             </div>
             <div className="lg:w-2/3 ">
               <h2 className="text-xl lg:text-2xl text-[#8D8D8D] uppercase font-bold">

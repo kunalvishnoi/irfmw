@@ -60,7 +60,10 @@ export default function About() {
               }  lg:justify-between lg:items-center lg:px-24 py-6`}
             >
               <div className="lg:w-2/5 flex justify-center">
-                <img src="../img.png" alt="mission" />
+                <img
+                  src={`${process.env.imageBasePath}/img.png`}
+                  alt="mission"
+                />
               </div>
               <div className="lg:w-2/3 ">
                 <p className="text-3xl lg:text-5xl capitalize my-3 font-bold">
@@ -79,125 +82,200 @@ export default function About() {
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team1.png`} alt="Hemanth Gaddam" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team1.png`}
+              alt="Hemanth Gaddam"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Hemanth Gaddam, Phd </h3>
-              <a href="https://www.linkedin.com/in/hemanth-gaddam-613631b7/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/hemanth-gaddam-613631b7/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
 
-            <p className=" lg:w-4/5 text-sm">
-             MD
-            </p>
+            <p className=" lg:w-4/5 text-sm">MD</p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team2.png`} alt="Akash Agarwal" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team2.png`}
+              alt="Akash Agarwal"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Akash Agarwal</h3>
-              <a href="https://www.linkedin.com/in/akash-agrawal-0645a052/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/akash-agrawal-0645a052/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
-            <p className="lg:w-4/5 text-sm">
-              CEO
-            </p>
+            <p className="lg:w-4/5 text-sm">CEO</p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team3.png`} alt="Subin Joesph" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team3.png`}
+              alt="Subin Joesph"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Subin Joesph</h3>
-              <a href="https://www.linkedin.com/in/subin-joseph-317b2280/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/subin-joseph-317b2280/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
-            <p className=" lg:w-4/5 text-sm">
-             CTO (Hardware)
-            </p>
+            <p className=" lg:w-4/5 text-sm">CTO (Hardware)</p>
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team4.png`} alt="Neeraj Kumar" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team4.png`}
+              alt="Neeraj Kumar"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Neeraj Kumar, PhD </h3>
-              <a href="https://www.linkedin.com/in/neeraj-kumar-phd/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/neeraj-kumar-phd/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
 
-            <p className=" lg:w-4/5 text-sm">
-            CTO (AI & Software)
-            </p>
+            <p className=" lg:w-4/5 text-sm">CTO (AI & Software)</p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team5.png`} alt="Srikanth Reddy" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team5.png`}
+              alt="Srikanth Reddy"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Srikanth Reddy</h3>
-              <a href="https://www.linkedin.com/in/srikanth-reddy-aileni-2194a78/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/srikanth-reddy-aileni-2194a78/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
-            <p className="lg:w-4/5 text-sm">
-            Director (Marketing)
-            </p>
+            <p className="lg:w-4/5 text-sm">Director (Marketing)</p>
           </div>
           <div className="flex bg-[#0D0D0D] flex-col  py-6 lg:py-12 px-6">
-            <img src={`../team6.png`} alt="Purnendu Sarkar" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team6.png`}
+              alt="Purnendu Sarkar"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Purnendu Sarkar</h3>
-              <a href="https://www.linkedin.com/in/purnendu-sarkar-55094329/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/purnendu-sarkar-55094329/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
-            <p className=" lg:w-4/5 text-sm">
-            VP (R&D)
-            </p>
+            <p className=" lg:w-4/5 text-sm">VP (R&D)</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-24 gap-8 my-6">
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team7.png`} alt="M Gunasekhar" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team7.png`}
+              alt="M Gunasekhar"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">M Gunasekhar</h3>
-              <img src="../linkedin.png" alt="linkedin" />
+              <img
+                src={`${process.env.imageBasePath}/linkedin.png`}
+                alt="linkedin"
+              />
             </div>
 
-            <p className=" lg:w-4/5 text-sm">
-            Director (Finance)
-            </p>
+            <p className=" lg:w-4/5 text-sm">Director (Finance)</p>
           </div>
 
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team8.png`} alt="Hari Susarla" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team8.png`}
+              alt="Hari Susarla"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Hari Susarla</h3>
-              <a href="https://www.linkedin.com/in/hari-susarla-b589334/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/hari-susarla-b589334/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
 
-            <p className=" lg:w-4/5 text-sm">
-            GM, EW systems
-            </p>
+            <p className=" lg:w-4/5 text-sm">GM, EW systems</p>
           </div>
 
           <div className="flex bg-[#0D0D0D] flex-col py-6 lg:py-12 px-6">
-            <img src={`../team9.png`} alt="Hari Susarla" className="h-[300px]" />
+            <img
+              src={`${process.env.imageBasePath}/team9.png`}
+              alt="Hari Susarla"
+              className="h-[300px]"
+            />
             <div className="flex justify-between items-center">
               <h3 className="text-2xl my-2 font-bold">Vijayashree Bhat, PhD</h3>
-              <a href="https://www.linkedin.com/in/hari-susarla-b589334/" target="_blank" rel="noreferrer">
-              <img src="../linkedin.png" alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/hari-susarla-b589334/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={`${process.env.imageBasePath}/linkedin.png`}
+                  alt="linkedin"
+                />
               </a>
             </div>
 
-            <p className=" lg:w-4/5 text-sm">
-            {/* GM, EW systems */}
-            </p>
+            <p className=" lg:w-4/5 text-sm">{/* GM, EW systems */}</p>
           </div>
-          
-          
         </div>
       </div>
       <div className="flex flex-col items-center py-12 lg:py-24 px-4 lg:px-16">

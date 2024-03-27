@@ -31,21 +31,21 @@ export const filters = [
 export const products = [
   {
     id: 1,
-    imgUrl: "../p1.png",
+    imgUrl: `${process.env.imageBasePath}/p1.png`,
     title: "Active Phased Array Antennas",
     description: "Description for Antenna/Product",
     productType: PRODUCT_TYPES.ACTIVE_PHASED_ARRAY_ANTENNAS,
   },
   {
     id: 2,
-    imgUrl: "../p2.png",
+    imgUrl: `${process.env.imageBasePath}/p2.png`,
     title: "Hybrid RF Circuits",
     description: "Description for Antenna/Product",
     productType: PRODUCT_TYPES.HYBRID_RF_CIRCUITS,
   },
   {
     id: 3,
-    imgUrl: "../p3.png",
+    imgUrl: `${process.env.imageBasePath}/p3.png`,
     title: "TR Modules",
     description: "Description for Antenna/Product",
     productType: PRODUCT_TYPES.TR_MODUCLES,
